@@ -1,7 +1,0 @@
-{
-  "version": "0.0.1",
-  "type": "ScriptAssetPlugin",
-  "id": "2048",
-  "name": "2048",
-  "description": "it's literally just 2048"
-}

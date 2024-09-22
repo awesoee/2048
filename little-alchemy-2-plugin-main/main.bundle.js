@@ -31414,7 +31414,7 @@ class my2048 extends BaseScriptAssetPlugin_1.default {
             this.setState({ gameURL: newURL });
         };
         this.state = {
-            gameURL: 'https://play2048.co/'
+            gameURL: 'https://littlealchemy2.com/'
         };
     }
     render() {
@@ -31534,7 +31534,7 @@ const ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/
 const plugin_core_1 = __webpack_require__(/*! @fraytools/plugin-core */ "./node_modules/@fraytools/plugin-core/lib/FrayToolsPluginCore.js");
 const The2048Plugin_1 = __webpack_require__(/*! ./The2048Plugin */ "./src/The2048Plugin.tsx");
 // Informs FrayToolsPluginCore the default config metadata for MyScriptAssetPlugin when it first gets initialized
-plugin_core_1.default.PLUGIN_CONFIG_METADATA_DEFAULTS = { version: {"version":"0.0.1","type":"ScriptAssetPlugin","id":"2048","name":"2048","description":"it's literally just 2048"}.version };
+plugin_core_1.default.PLUGIN_CONFIG_METADATA_DEFAULTS = { version: {"version":"0.0.1","type":"ScriptAssetPlugin","id":"little.alchemy.2","name":"Little Alchemy 2","description":""}.version };
 plugin_core_1.default.migrationHandler = (configMetadata) => {
     // Compare configMetadata.version here with your latest manifest version and perform any necessary migrations for compatibility
 };
